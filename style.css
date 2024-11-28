@@ -1,0 +1,46 @@
+html {
+  background: lightblue;
+}
+
+body {
+  background: teal;
+  width: 600px;
+  margin: 0px auto;
+  padding: 20px 50px;
+  text-align: center;
+  border-radius: 15px;
+  font-family: "Sofia Sans", sans-serif;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td {
+  border: 2px solid black;
+  padding: 10px;
+}
+
+td > p {
+  font-size: 10px;
+}
+
+img {
+  width: 100px;
+  border-radius: 15px;
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+img:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+#header {
+  border: 2px solid navy;
+  margin-bottom: 30px;
+  padding: 20px;
+  background: #3676ec;
+}
